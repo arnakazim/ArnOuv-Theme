@@ -4,8 +4,8 @@
 			<div class="col-sm-8">
 				
 				<article class="blog-post">
-					<h2 class="blog-post-title"><?php __e('Page not found', 'arnouv-theme'); ?></h2>
-					<p><?php __e('Sorry but no content match with your request.', 'arnouv-theme'); ?></p>
+					<h2 class="blog-post-title"><?php _e('Page not found', 'arnouv-theme'); ?></h2>
+					<p><?php _e('Sorry but no content match with your request.', 'arnouv-theme'); ?></p>
 				</article>
 
 			</div>
