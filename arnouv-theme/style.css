@@ -1,0 +1,177 @@
+/*
+Theme Name: Thème Arnakazim.com
+Author: Arnaud Ouvrier
+Description: Theme for Arnakazim.com
+Version: 17.0.0
+*/
+
+body {
+	font-family: Geneva, sans-serif;
+	font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #a05a00;
+}
+
+.navbar-default {
+	background: url('img/header-background.png') #fff repeat-x bottom;
+}
+
+.navbar-brand {
+	line-height: 40px;
+	padding: 5px 15px;
+	margin-left: 15px;
+}
+
+a,
+.navbar-default .navbar-nav>li>a,
+.navbar>.container .navbar-brand,
+.navbar>.container-fluid .navbar-brand {
+    color: #ff960f;
+    /*font-weight: bold;*/
+}
+
+a:hover,
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>.current_page_item>a,
+.navbar-default .navbar-nav>.current_page_item>a:hover {
+    color: #a05a00;
+}
+
+.navbar {
+	margin: 0;
+	padding-bottom: 6px;
+	/*position: fixed;*/
+	width: 100%;
+	border: none;
+	border-radius: 0;
+}
+
+article {
+	background: url('img/header-background.png') #fff repeat-x bottom;
+	padding-bottom: 6px;
+	/*margin-bottom: 20px;*/
+    line-height: 1.5em;
+}
+
+article:last-child{
+	margin-bottom: 20px;
+	padding-bottom: 0px;
+	background: #fff;
+}
+
+article p {
+	margin: 0 0 1.5em;
+}
+
+article img {
+	max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.banner {
+	/*margin-top: 56px;*/
+	margin-bottom: 25px;
+
+    
+}
+
+.banner img {
+	width: 100%;
+	border-radius: 0 0 4px 4px;
+}
+
+footer {
+	background: url('img/header-background.png') #fff repeat-x top;
+	padding: 26px 0 10px;
+}
+
+.blog-post-meta {
+    margin-bottom: 20px;
+    color: #999;
+}
+
+.blog-post-title {
+    margin-bottom: 5px;
+    font-size: 40px;
+}
+
+.blog-post-title a {
+    color: #a05a00;
+}
+
+.blog-post-title a:hover {
+    color: #a05a00;
+    text-decoration: none;
+}
+
+.sidebar-module {
+    padding: 15px;
+    margin: 0 0 15px 0;
+    font-size: 0.9em;
+}
+
+
+.sidebar-module-inset {
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    margin: 15px 0;
+}
+.blog-header {
+    padding: 50px;
+    background: url('img/banner.jpg') no-repeat fixed top center;
+    margin-bottom: 25px;
+	border-radius: 0 0 4px 4px;
+
+    font-size: 0;
+}
+
+.blog-title {
+    margin: 0;
+    padding: 0;
+}
+
+.blog-title>h1 {
+    margin: 0;
+    padding: 0 10px;
+    font-size: 60px;
+    font-weight: normal;
+    color: #ff960f;
+
+    /*background-color: #202020;*/
+    background-color: #fff;
+    display: inline-block;
+}
+
+.blog-description {
+    margin: 0;
+    margin-top: -1px;
+    padding: 0;
+}
+
+.blog-description>p {
+    font-size: 20px;
+    color: #fff;
+    background-color: #ff960f;
+    padding: 0 10px;
+    height: 100%;
+    margin: 0;
+    display: inline-block;
+}
+
+.aligncenter, img.aligncenter {
+    display: block;
+    margin: 0 auto;
+}
+
+.pages-links {
+    text-align:center;
+    
+}
+
+.pages-links>a {
+    margin: 2em 0;
+    display: block;
+}
