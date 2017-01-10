@@ -150,4 +150,9 @@ function themeSettingsPage( )
 <?php
 }
 
+add_action('after_setup_theme', 'arnouv_theme_setup');
+function arnouv_theme_setup(){
+	load_theme_textdomain('arnouv-theme', get_template_directory() . '/languages');
+}
+
 ?>

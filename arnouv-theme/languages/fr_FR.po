@@ -50,3 +50,39 @@ msgstr "Archives"
 
 msgid "Also on..."
 msgstr "Aussi sur..."
+
+msgid "ArnOuv Theme's settings"
+msgstr "Options du thème ArnOuv"
+
+msgid "Theme colors"
+msgstr "Couleurs du thème"
+
+msgid "Light theme color"
+msgstr "Couleur claire du thème"
+
+msgid "Dark theme color"
+msgstr "Couleur foncée du thème"
+
+msgid "&ldquo;About&rdquo; section"
+msgstr "Section &ldquo;A propos&rdquo;"
+
+msgid "&ldquo;About&rdquo; section text"
+msgstr "Texte de la section &ldquo;A propos&rdquo; de la sidebar"
+
+msgid "Social networks"
+msgstr "Liens sociaux"
+
+msgid "Let the fields empty if you don&apos;t use these social networks"
+msgstr "Laissez les champs vides si vous n&apos;avez pas de lien sur ces réseaux sociaux."
+
+msgid "Your Twitter URL"
+msgstr "Votre URL Twitter"
+
+msgid "Your Facebook URL"
+msgstr "Votre URL Facebook"
+
+msgid "Your Instagram URL"
+msgstr "Votre URL Instagram"
+
+msgid "Your YouTube URL"
+msgstr "Votre URL YouTube"
