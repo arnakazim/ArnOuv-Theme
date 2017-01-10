@@ -1,21 +1,22 @@
 /*
-Theme Name: Thème Arnakazim.com
+Theme Name: ArnOuv Theme
+Theme URI: http://www.arnaudouvrier.fr/themes/arnouv-theme
 Author: Arnaud Ouvrier
-Description: Theme for Arnakazim.com
-Version: 17.0.0
+Author URI: http://www.arnaudouvrier.fr/
+Description: Simple and light WordPress featuring ease of configuration and responsiveness using Bootstrap.
+Version: 17.1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: arnouv-theme
 */
 
 body {
-	font-family: Geneva, sans-serif;
+	font-family: arial, sans-serif;
 	font-size: 16px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	color: #a05a00;
-}
-
 .navbar-default {
-	background: url('img/header-background.png') #fff repeat-x bottom;
+	background: url('img/separator-background.png') #fff repeat-x bottom;
 }
 
 .navbar-brand {
@@ -24,34 +25,44 @@ h1, h2, h3, h4, h5, h6 {
 	margin-left: 15px;
 }
 
+
+/* Light color */
 a,
 .navbar-default .navbar-nav>li>a,
 .navbar>.container .navbar-brand,
-.navbar>.container-fluid .navbar-brand {
+.navbar>.container-fluid .navbar-brand,
+.blog-title>h1
+{
     color: #ff960f;
-    /*font-weight: bold;*/
 }
 
+.blog-description>p {
+    background-color: #ff960f;
+}
+
+/* Dark color */
+h1, h2, h3, h4, h5, h6,
 a:hover,
 .navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>.current_page_item>a,
-.navbar-default .navbar-nav>.current_page_item>a:hover {
+.navbar-default .navbar-nav>.current_page_item>a:hover,
+.blog-post-title a,
+.blog-post-title a:hover
+{
     color: #a05a00;
 }
 
 .navbar {
 	margin: 0;
 	padding-bottom: 6px;
-	/*position: fixed;*/
 	width: 100%;
 	border: none;
 	border-radius: 0;
 }
 
 article {
-	background: url('img/header-background.png') #fff repeat-x bottom;
+	background: url('img/separator-background.png') #fff repeat-x bottom;
 	padding-bottom: 6px;
-	/*margin-bottom: 20px;*/
     line-height: 1.5em;
 }
 
@@ -71,11 +82,8 @@ article img {
     border-radius: 4px;
 }
 
-.banner {
-	/*margin-top: 56px;*/
+.banner, .blog-header {
 	margin-bottom: 25px;
-
-    
 }
 
 .banner img {
@@ -84,7 +92,7 @@ article img {
 }
 
 footer {
-	background: url('img/header-background.png') #fff repeat-x top;
+	background: url('img/separator-background.png') #fff repeat-x top;
 	padding: 26px 0 10px;
 }
 
@@ -98,12 +106,7 @@ footer {
     font-size: 40px;
 }
 
-.blog-post-title a {
-    color: #a05a00;
-}
-
 .blog-post-title a:hover {
-    color: #a05a00;
     text-decoration: none;
 }
 
@@ -122,7 +125,6 @@ footer {
 .blog-header {
     padding: 50px;
     background: url('img/banner.jpg') no-repeat fixed top center;
-    margin-bottom: 25px;
 	border-radius: 0 0 4px 4px;
 
     font-size: 0;
@@ -138,9 +140,6 @@ footer {
     padding: 0 10px;
     font-size: 60px;
     font-weight: normal;
-    color: #ff960f;
-
-    /*background-color: #202020;*/
     background-color: #fff;
     display: inline-block;
 }
@@ -154,7 +153,6 @@ footer {
 .blog-description>p {
     font-size: 20px;
     color: #fff;
-    background-color: #ff960f;
     padding: 0 10px;
     height: 100%;
     margin: 0;

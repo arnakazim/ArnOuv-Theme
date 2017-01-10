@@ -39,7 +39,7 @@
 					</button>
 
 					<a class="navbar-brand" href="<?php bloginfo( 'wpurl' );?>">
-						<img alt="<?php echo get_bloginfo( 'name' ); ?>" height="40" src="<?php bloginfo('template_directory'); ?>/img/logo_arncom.jpg">
+						<img alt="<?php echo get_bloginfo( 'name' ); ?>" height="40" src="<?php bloginfo('template_directory'); ?>/img/brand-logo.png">
 					</a>
 					<a class="navbar-brand" href="<?php bloginfo( 'wpurl' );?>"><?php echo get_bloginfo( 'name' ); ?></a>
 				</div>
