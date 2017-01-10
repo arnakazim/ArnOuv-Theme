@@ -16,7 +16,7 @@
 
 				<?php if (show_posts_nav()) : ?>
 					<div class="pages-links">
-						<?php posts_nav_link(' — ','&larr; '.__('Articles plus récents', 'arnouv-theme'),__('Articles plus anciens', 'arnouv-theme').' &rarr;'); ?>
+						<?php posts_nav_link(' &ndash; ','&larr; '.__('Articles plus récents', 'arnouv-theme'),__('Articles plus anciens', 'arnouv-theme').' &rarr;'); ?>
 					</div>
 				<?php endif; ?>
 
