@@ -1,6 +1,6 @@
 	</div>
 	<footer class="container">
-		<p class="text-center"><small>&copy; 2012-2016 Arnakazim.com &ndash; Site web développé par <a href="http://www.arnaudouvrier.fr/">Arnaud Ouvrier</a></small></p>
+		<p class="text-center"><small>&copy; <?php echo date('Y'); ?> <?php echo get_bloginfo( 'name' ); ?> &ndash; <?php _e('Thème développé par', 'arnouv-theme'); ?> <a href="http://www.arnaudouvrier.fr/">Arnaud Ouvrier</a></small></p>
 	</footer>
 
 

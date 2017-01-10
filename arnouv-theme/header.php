@@ -46,9 +46,7 @@
 
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<!-- <ul class="nav navbar-nav"> -->
-						<!-- <li class="active"><a href="#">Accueil <span class="sr-only">(current)</span></a></li> -->
-						<?php 
+					<?php 
 							wp_page_menu(array(
 								'show_home' => 'Blog',
 								'sort_column' => 'menu_order',
@@ -58,7 +56,6 @@
 								'menu_class' => 'nav navbar-nav'
 							)); 
 						?>
-					<!-- </ul> -->
 				</div>
 			</div>
 		</nav>
