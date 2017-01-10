@@ -1,10 +1,10 @@
 <div class="col-sm-3 col-sm-offset-1">
 	<div class="sidebar-module sidebar-module-inset">
-	<h4><?php _e('À propos', 'arnouv-theme'); ?></h4>
+	<h4><?php _e('About', 'arnouv-theme'); ?></h4>
 	<p><?php if(get_option('about_text')): ?>
 			<?php echo htmlspecialchars(get_option('about_text'));?>
 		<?php else: ?>
-			<?php _e('Huhu... Aucune information n\'a été renseignée pour cette section...', 'arnouv-theme'); ?>
+			<?php _e('Oups... No information have been given for this section...', 'arnouv-theme'); ?>
 		<?php endif; ?></p>
 	</div>
 	<div class="sidebar-module">
@@ -14,7 +14,7 @@
 		</ol>
 	  </div>
 	  <div class="sidebar-module">
-		<h4><?php _e('Aussi sur...', 'arnouv-theme'); ?></h4>
+		<h4><?php _e('Also on...', 'arnouv-theme'); ?></h4>
 		<ol class="list-unstyled">
 			<?php if(get_option('facebook_url')): ?>
 				<li><a href="<?php echo htmlspecialchars(get_option('facebook_url')); ?>">Facebook</a></li>
