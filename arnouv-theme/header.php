@@ -50,7 +50,7 @@
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<?php 
 							wp_page_menu(array(
-								'show_home' => 'Blog',
+								'show_home' => __('Blog', 'arnouv-theme'),
 								'sort_column' => 'menu_order',
 								'container' => 'ul',
 								'before' => false,

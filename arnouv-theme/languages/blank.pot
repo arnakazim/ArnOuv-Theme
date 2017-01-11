@@ -34,6 +34,9 @@ msgstr ""
 "X-Poedit-Country: UNITED STATES\n"
 "X-Poedit-Bookmarks: \n"
 
+msgid "Blog"
+msgstr ""
+
 msgid "Page not found"
 msgstr ""
 
