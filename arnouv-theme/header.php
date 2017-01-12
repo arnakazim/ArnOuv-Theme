@@ -15,8 +15,6 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/style.css">
 
-	<link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/img/favicon.ico" type="image/x-icon">
-
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
@@ -41,7 +39,7 @@
 					</button>
 
 					<a class="navbar-brand" href="<?php bloginfo( 'wpurl' );?>">
-						<img alt="<?php echo get_bloginfo( 'name' ); ?>" height="40" src="<?php bloginfo('template_directory'); ?>/img/brand-logo.png">
+						<img alt="<?php echo get_bloginfo( 'name' ); ?>" height="40" src="<?php echo get_theme_mod( 'logo_image' ); ?>">
 					</a>
 					<a class="navbar-brand" href="<?php bloginfo( 'wpurl' );?>"><?php echo get_bloginfo( 'name' ); ?></a>
 				</div>
@@ -49,6 +47,15 @@
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<?php 
+						wp_nav_menu( array(
+							'arnouv-theme' => 'header-menu',
+							'container' => 'ul',
+							'before' => false,
+							'after' => false,
+							'menu_class' => 'nav navbar-nav'
+						));
+					?>
+					<!--<?php 
 							wp_page_menu(array(
 								'show_home' => __('Blog', 'arnouv-theme'),
 								'sort_column' => 'menu_order',
@@ -57,7 +64,7 @@
 								'after' => false,
 								'menu_class' => 'nav navbar-nav'
 							)); 
-						?>
+						?>-->
 				</div>
 			</div>
 		</nav>

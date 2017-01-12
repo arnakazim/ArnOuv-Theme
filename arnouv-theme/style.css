@@ -16,7 +16,7 @@ body {
 }
 
 .navbar-default {
-	background: url('img/separator-background.png') #fff repeat-x bottom;
+	background-position:  bottom;
 }
 
 .navbar-brand {
@@ -34,10 +34,6 @@ body {
 	width: 100%;
 	border: none;
 	border-radius: 0;
-}
-
-article, footer {
-	background: url('img/separator-background.png') #fff repeat-x;
 }
 
 article {
