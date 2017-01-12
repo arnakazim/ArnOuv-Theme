@@ -91,7 +91,7 @@ msgstr ""
 msgid "&ldquo;About&rdquo; section text"
 msgstr ""
 
-msgid "Social networks"
+msgid "Social networks links"
 msgstr ""
 
 msgid "Let the fields empty if you don&apos;t use these social networks"
@@ -107,4 +107,25 @@ msgid "Your Instagram URL"
 msgstr ""
 
 msgid "Your YouTube URL"
+msgstr ""
+
+msgid "Header Menu"
+msgstr ""
+
+msgid "Upload a logo"
+msgstr ""
+
+msgid "Brand logo should be 40 by 40 pixels"
+msgstr ""
+
+msgid "Upload a separator"
+msgstr ""
+
+msgid "Separator should be 1 by 6 pixels, using your theme colors."
+msgstr ""
+
+msgid "Upload a banner"
+msgstr ""
+
+msgid "Banner should be 1920 by 300 pixels."
 msgstr ""

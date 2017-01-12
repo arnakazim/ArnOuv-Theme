@@ -1,12 +1,12 @@
 # ArnOuv Theme Blank Pot
 # Copyright 2017 Arnaud Ouvrier
-# 
+#
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
-# 
+#
 # http://www.apache.org/licenses/LICENSE-2.0
-#       
+#
 # Unless required by applicable law or agreed to in writing, software
 # distributed under the License is distributed on an "AS IS" BASIS,
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -25,6 +25,9 @@ msgstr ""
 "Last-Translator: \n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "Language: fr_FR\n"
+
+msgid "Blog"
+msgstr "Blog"
 
 msgid "Page not found"
 msgstr "Page non trouvée"
@@ -80,7 +83,7 @@ msgstr "Section &ldquo;A propos&rdquo;"
 msgid "&ldquo;About&rdquo; section text"
 msgstr "Texte de la section &ldquo;A propos&rdquo; de la sidebar"
 
-msgid "Social networks"
+msgid "Social networks links"
 msgstr "Liens sociaux"
 
 msgid "Let the fields empty if you don&apos;t use these social networks"
@@ -97,3 +100,24 @@ msgstr "Votre URL Instagram"
 
 msgid "Your YouTube URL"
 msgstr "Votre URL YouTube"
+
+msgid "Header Menu"
+msgstr "Menu de l'en-tête"
+
+msgid "Upload a logo"
+msgstr "Télécharger un logo"
+
+msgid "Brand logo should be 40 by 40 pixels"
+msgstr "Logo de la marque doit être de 40 x 40 pixels"
+
+msgid "Upload a separator"
+msgstr "Télécharger un séparateur"
+
+msgid "Separator should be 1 by 6 pixels, using your theme colors."
+msgstr "Le séparateur devrait être de 1 x 6 pixels, en utilisant les couleurs de votre thème."
+
+msgid "Upload a banner"
+msgstr "Téléchargez une bannière"
+
+msgid "Banner should be 1920 by 300 pixels."
+msgstr "Bannière doit être 1920 x 300 pixels."
