@@ -206,6 +206,9 @@ function arnouv_customizer_head_styles() {
 
 	$separator_image = get_theme_mod( 'separator_image' );
 	$banner_image = get_theme_mod( 'banner_image' );
+
+	if(empty($separator_image)) $separator_image = get_template_directory_uri() . '/img/separator-background.png';
+	if(empty($banner_image)) $banner_image = get_template_directory_uri() . '/img/banner.jpg';
 	
 	?>
 		<style type="text/css">

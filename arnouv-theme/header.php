@@ -39,7 +39,8 @@
 					</button>
 
 					<a class="navbar-brand" href="<?php bloginfo( 'wpurl' );?>">
-						<img alt="<?php echo get_bloginfo( 'name' ); ?>" height="40" src="<?php echo get_theme_mod( 'logo_image' ); ?>">
+						<?php $logo_url = get_theme_mod('logo_image'); if(empty($logo_url)) $logo_url = get_template_directory_uri().'/img/brand-logo.png'; ?>
+						<img alt="<?php echo get_bloginfo( 'name' ); ?>" height="40" src="<?php echo $logo_url; ?>">
 					</a>
 					<a class="navbar-brand" href="<?php bloginfo( 'wpurl' );?>"><?php echo get_bloginfo( 'name' ); ?></a>
 				</div>

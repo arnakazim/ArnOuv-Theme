@@ -1,7 +1,8 @@
 <div class="col-sm-3 col-sm-offset-1">
 	<div class="sidebar-module sidebar-module-inset">
 	<h4><?php _e('About', 'arnouv-theme'); ?></h4>
-	<p><?php echo get_theme_mod( 'about_text' );?></p>
+	<?php $about_text = get_theme_mod( 'about_text' ); if(empty($about_text)) $about_text = __('Oups... No information have been given for this section...', 'arnouv-theme'); ?>
+	<p><?php echo $about_text;?></p>
 	</div>
 	<div class="sidebar-module">
 		<h4><?php _e('Archives', 'arnouv-theme'); ?></h4>
